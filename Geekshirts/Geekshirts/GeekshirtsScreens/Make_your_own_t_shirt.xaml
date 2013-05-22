@@ -17,15 +17,15 @@
 		<TextBlock Margin="0,109,215,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Design your own T-shirt" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Right"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,109,90,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="On sale" VerticalAlignment="Top" FontWeight="Bold"/>
 		<TextBlock HorizontalAlignment="Left" Margin="245,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Webshop" VerticalAlignment="Top" FontWeight="Bold"/>
-		<Image HorizontalAlignment="Left" Height="65" Source="Fonts/Icons/Geeklogo.png" Stretch="Fill" VerticalAlignment="Top" Width="350" Margin="35,20,0,0"/>
+		<Image HorizontalAlignment="Left" Height="65" Source="Images/Icons/Geeklogo.png" Stretch="Fill" VerticalAlignment="Top" Width="350" Margin="35,20,0,0"/>
 		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="88" Margin="0,8,27,0" Stroke="Black" VerticalAlignment="Top" Width="250" Opacity="0.5"/>
-		<Image Margin="864,20,41,580" Source="Fonts/Icons/14553490-shopping-cart-icon.jpg" Stretch="Fill" Width="50" Height="50" Opacity="0.5"/>
+		<Image Margin="864,20,41,580" Source="Images/Icons/14553490-shopping-cart-icon.jpg" Stretch="Fill" Width="50" Height="50" Opacity="0.5"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,75,229,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" Opacity="0.5"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,50,229,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Opacity="0.5" Foreground="#FF606060" FontWeight="Bold"/>
 		<TextBlock HorizontalAlignment="Left" Margin="52,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Width="45" Height="25"><Run Text="Home"/><LineBreak/><Run/></TextBlock>
-		<Image Margin="128,229,652,221" Source="Fonts/Icons/ist2_313762-adult-size-white-t-shirt.jpeg" Stretch="Fill" Width="175" Height="200" d:LayoutOverrides="VerticalAlignment"/>
-		<Image Margin="670,229,110,221" Source="Fonts/Icons/ist2_313762-adult-size-white-t-shirt.jpeg" Stretch="Fill" Width="175" Height="200" d:LayoutOverrides="VerticalAlignment"/>
-		<Image Margin="399,229,381,221" Source="Fonts/Icons/ist2_313762-adult-size-white-t-shirt.jpeg" Stretch="Fill" Width="175" Height="200" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment"/>
+		<Image Margin="128,229,652,221" Source="Images/Icons/ist2_313762-adult-size-white-t-shirt.jpeg" Stretch="Fill" Width="175" Height="200" d:LayoutOverrides="VerticalAlignment"/>
+		<Image Margin="670,229,110,221" Source="Images/Icons/ist2_313762-adult-size-white-t-shirt.jpeg" Stretch="Fill" Width="175" Height="200" d:LayoutOverrides="VerticalAlignment"/>
+		<Image Margin="399,229,381,221" Source="Images/Icons/ist2_313762-adult-size-white-t-shirt.jpeg" Stretch="Fill" Width="175" Height="200" d:LayoutOverrides="HorizontalAlignment, VerticalAlignment"/>
 		<ed:Callout AnchorPoint="0,1.5" CalloutStyle="RoundedRectangle" Content="" Fill="#FFF4F4F5" FontSize="14.666999816894531" HorizontalAlignment="Left" Height="75" Margin="93,0,0,144" Stroke="Black" VerticalAlignment="Bottom" Width="100" RenderTransformOrigin="0.5,0.5">
 			<ed:GeometryEffect.GeometryEffect>
 				<ed:SketchGeometryEffect/>
@@ -55,8 +55,8 @@
 		<TextBlock HorizontalAlignment="Right" Margin="0,0,232,153" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="21.333" Width="80" Height="50" RenderTransformOrigin="0.494,0.35"><Run Text="3. Choose text"/><LineBreak/><Run/></TextBlock>
 		<TextBlock HorizontalAlignment="Left" Margin="85,175,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" Height="30" FontSize="21.333"><Run Text="Instructions for making your own T-shirt"/><LineBreak/><Run/></TextBlock>
 		<TextBlock HorizontalAlignment="Right" Margin="0,265,157,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="80" Text="Add your text "/>
-		<Image Margin="452,278,428,288" Source="Fonts/Icons/Stewie.jpg" Stretch="Fill"/>
-		<Image Margin="0,289,157,277" Source="Fonts/Icons/Stewie.jpg" Stretch="Fill" HorizontalAlignment="Right" Width="75"/>
+		<Image Margin="452,278,428,288" Source="Images/Icons/Stewie.jpg" Stretch="Fill"/>
+		<Image Margin="0,289,157,277" Source="Images/Icons/Stewie.jpg" Stretch="Fill" HorizontalAlignment="Right" Width="75"/>
 		<Image HorizontalAlignment="Left" Height="50" Margin="63,229,0,0" Source="Fonts/Icons/one.png" Stretch="Fill" VerticalAlignment="Top" Width="50"/>
 		<Image HorizontalAlignment="Left" Height="50" Margin="329,235,0,0" Source="Fonts/Icons/two.png" Stretch="Fill" VerticalAlignment="Top" Width="50"/>
 		<Image HorizontalAlignment="Right" Height="50" Margin="0,235,289,0" Source="Fonts/Icons/three.png" Stretch="Fill" VerticalAlignment="Top" Width="50"/>

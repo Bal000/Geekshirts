@@ -15,9 +15,9 @@
 		<TextBlock Margin="0,109,215,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Design your own T-shirt" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Right"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,109,90,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="On sale" VerticalAlignment="Top" FontWeight="Bold"/>
 		<TextBlock HorizontalAlignment="Left" Margin="245,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Webshop" VerticalAlignment="Top" FontWeight="Bold"/>
-		<Image HorizontalAlignment="Left" Height="65" Source="Fonts/Icons/Geeklogo.png" Stretch="Fill" VerticalAlignment="Top" Width="350" Margin="35,20,0,0"/>
+		<Image HorizontalAlignment="Left" Height="65" Source="Images/Icons/Geeklogo.png" Stretch="Fill" VerticalAlignment="Top" Width="350" Margin="35,20,0,0"/>
 		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="88" Margin="0,8,27,0" Stroke="Black" VerticalAlignment="Top" Width="250" Opacity="0.5"/>
-		<Image Margin="864,20,41,580" Source="Fonts/Icons/14553490-shopping-cart-icon.jpg" Stretch="Fill" Width="50" Height="50" Opacity="0.5"/>
+		<Image Margin="864,20,41,580" Source="Images/Icons/14553490-shopping-cart-icon.jpg" Stretch="Fill" Width="50" Height="50" Opacity="0.5"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,75,229,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" Opacity="0.5"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,50,229,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Opacity="0.5" Foreground="#FF606060" FontWeight="Bold"/>
 		<TextBlock HorizontalAlignment="Left" Margin="52,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Width="45" Height="25"><Run Text="Home"/><LineBreak/><Run/></TextBlock>
@@ -29,13 +29,13 @@
 			<ComboBoxItem Content="Child &amp; Babies" FontSize="18.667"/>
 			<ComboBoxItem Content="News" FontSize="18.667"/>
 		</ComboBox>
-		<Image x:Name="blueShirt" Margin="69,244,0,0" Source="Fonts/Shirts/blue t-shirt.jpg" Stretch="Fill" Width="65" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top"  d:LayoutOverrides="Width, Height"/>
-		<Image x:Name="blackShirt" HorizontalAlignment="Left" Height="80" Margin="151,0,0,326" Source="Fonts/Shirts/t-shirt black.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="65"/>
-		<Image x:Name="greenShirt" Height="80" Margin="151,0,0,223" Source="Fonts/Shirts/t-shirt green.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="65" HorizontalAlignment="Left" d:LayoutOverrides="Width"/>
-		<Image x:Name="yellowShirt" HorizontalAlignment="Left" Height="80" Margin="69,0,0,223" Source="Fonts/Shirts/t-shirt yellow.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="65"/>
-		<Image x:Name="purpleShirt" HorizontalAlignment="Left" Height="80" Margin="69,0,0,123" Source="Fonts/Shirts/t-shirt purple.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="65"/>
-		<Image x:Name="orangeShirt" HorizontalAlignment="Left" Height="80" Margin="151,0,0,123" Source="Fonts/Shirts/orange-T-shirt.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="65"/>
-		<Image x:Name="redShirt" HorizontalAlignment="Left" Height="80" Margin="234,0,0,223" Source="/Fonts/Shirts/T-shirt red.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="65" d:LayoutOverrides="HorizontalAlignment"/>
-		<Image x:Name="whiteShirt" HorizontalAlignment="Left" Height="80" Margin="234,244,0,0" Source="Fonts/Shirts/t-shirt white.jpg" Stretch="Fill" VerticalAlignment="Top" Width="65"/>
+		<Image x:Name="blueShirt" Margin="69,244,0,0" Source="Images/Shirts/blue t-shirt.jpg" Stretch="Fill" Width="65" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top"  d:LayoutOverrides="Width, Height"/>
+		<Image x:Name="blackShirt" HorizontalAlignment="Left" Height="80" Margin="151,0,0,326" Source="Images/Shirts/t-shirt black.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="65"/>
+		<Image x:Name="greenShirt" Height="80" Margin="151,0,0,223" Source="/Images/Shirts/T-shirt red.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="65" HorizontalAlignment="Left" d:LayoutOverrides="Width"/>
+		<Image x:Name="yellowShirt" HorizontalAlignment="Left" Height="80" Margin="69,0,0,223" Source="Images/Shirts/t-shirt purple.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="65"/>
+		<Image x:Name="purpleShirt" HorizontalAlignment="Left" Height="80" Margin="69,0,0,123" Source="Images/Shirts/t-shirt white.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="65"/>
+		<Image x:Name="orangeShirt" HorizontalAlignment="Left" Height="80" Margin="151,0,0,123" Source="Images/Shirts/orange-T-shirt.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="65"/>
+		<Image x:Name="redShirt" HorizontalAlignment="Left" Height="80" Margin="234,0,0,223" Source="Images/Shirts/t-shirt yellow.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="65" d:LayoutOverrides="HorizontalAlignment"/>
+		<Image x:Name="whiteShirt" HorizontalAlignment="Left" Height="80" Margin="234,244,0,0" Source="Images/Shirts/t-shirt green.jpg" Stretch="Fill" VerticalAlignment="Top" Width="65"/>
 	</Grid>
 </UserControl>
