@@ -3,6 +3,7 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity"
 	mc:Ignorable="d"
 	x:Class="GeekshirtsScreens.Screen_1"
 	Width="955" Height="650">
@@ -12,7 +13,13 @@
 		<TextBlock HorizontalAlignment="Left" Margin="138,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"><Run Text="Forum"/><LineBreak/><Run/></TextBlock>
 		<TextBlock Margin="0,109,435,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold"><Run Text="Events"/><LineBreak/><Run/></TextBlock>
 		<TextBlock HorizontalAlignment="Left" Margin="371,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"><Run Text="News"/><LineBreak/><Run/></TextBlock>
-		<TextBlock Margin="0,109,215,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Design your own T-shirt" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+		<TextBlock Margin="0,109,215,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Design your own T-shirt" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Right">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseLeftButtonDown">
+					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Make_your_own_t_shirt"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</TextBlock>
 		<TextBlock HorizontalAlignment="Right" Margin="0,109,90,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="On sale" VerticalAlignment="Top" FontWeight="Bold"/>
 		<TextBlock HorizontalAlignment="Left" Margin="245,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Webshop" VerticalAlignment="Top" FontWeight="Bold"/>
 		<Image HorizontalAlignment="Left" Height="65" Source="Fonts/Icons/Geeklogo.png" Stretch="Fill" VerticalAlignment="Top" Width="350" Margin="35,20,0,0"/>

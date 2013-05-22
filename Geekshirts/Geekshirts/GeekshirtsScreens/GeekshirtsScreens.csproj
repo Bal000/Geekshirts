@@ -102,27 +102,27 @@
       <Link>Properties\Version.cs</Link>
     </Compile>
     <Resource Include="Fonts\BuxtonSketch.ttf" />
-    <Resource Include="Fonts\Icons\14553490-shopping-cart-icon.jpg" />
-    <Resource Include="Fonts\Icons\Geeklogo.png" />
-    <Resource Include="Fonts\Icons\ist2_313762-adult-size-white-t-shirt.jpeg" />
-    <Resource Include="Fonts\Icons\one.png" />
-    <Resource Include="Fonts\Icons\star wars logo.PNG" />
-    <Resource Include="Fonts\Icons\Stewie.jpg" />
-    <Resource Include="Fonts\Icons\three.png" />
-    <Resource Include="Fonts\Icons\two.png" />
-    <Resource Include="Fonts\Shirts\blue t-shirt.jpg" />
-    <Resource Include="Fonts\Shirts\orange-T-shirt.jpg" />
-    <Resource Include="Fonts\Shirts\t-shirt black.jpg" />
-    <Resource Include="Fonts\Shirts\t-shirt green.jpg" />
-    <Resource Include="Fonts\Shirts\t-shirt purple.jpg" />
-    <Resource Include="Fonts\Shirts\t-shirt white.jpg" />
-    <Resource Include="Fonts\Shirts\t-shirt yellow.jpg" />
     <Resource Include="Fonts\SketchFlow Print.ttf" />
     <Resource Include="Fonts\SegoeMarker.ttf" />
+    <Resource Include="Images\Icons\14553490-shopping-cart-icon.jpg" />
+    <Resource Include="Images\Icons\Geeklogo.png" />
+    <Resource Include="Images\Icons\ist2_313762-adult-size-white-t-shirt.jpeg" />
+    <Resource Include="Images\Icons\one.png" />
+    <Resource Include="Images\Icons\star wars logo.PNG" />
+    <Resource Include="Images\Icons\Stewie.jpg" />
+    <Resource Include="Images\Icons\three.png" />
+    <Resource Include="Images\Icons\two.png" />
+    <Resource Include="Images\Shirts\blue t-shirt.jpg" />
+    <Resource Include="Images\Shirts\orange-T-shirt.jpg" />
+    <Resource Include="Images\Shirts\t-shirt black.jpg" />
+    <Resource Include="Images\Shirts\t-shirt green.jpg" />
+    <Resource Include="Images\Shirts\t-shirt purple.jpg" />
+    <Resource Include="Images\Shirts\t-shirt white.jpg" />
+    <Resource Include="Images\Shirts\t-shirt yellow.jpg" />
     <Resource Include="Sketch.Flow" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Fonts\Shirts\T-shirt red.jpg">
+    <Content Include="Images\Shirts\T-shirt red.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
