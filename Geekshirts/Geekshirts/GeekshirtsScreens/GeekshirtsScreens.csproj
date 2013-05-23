@@ -45,9 +45,11 @@
     <Reference Include="Microsoft.Expression.Controls" />
     <Reference Include="Microsoft.Expression.Drawing" />
     <Reference Include="mscorlib" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Windows" />
     <Reference Include="system" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Controls.Data.Input" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Net" />
     <Reference Include="System.Windows.Browser" />
@@ -65,8 +67,14 @@
     <Reference Include="Microsoft.Expression.Prototyping.SketchControls" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Copy_of_Screen_1.xaml.cs">
+      <DependentUpon>Copy_of_Screen_1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Copy_of_Screen_1_1.xaml.cs">
       <DependentUpon>Copy_of_Screen_1_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Events.xaml.cs">
+      <DependentUpon>Events.xaml</DependentUpon>
     </Compile>
     <Compile Include="Make_your_own_t_shirt.xaml.cs">
       <DependentUpon>Make_your_own_t_shirt.xaml</DependentUpon>
@@ -74,10 +82,21 @@
     <Compile Include="Make_your_own_t_shirt_intro.xaml.cs">
       <DependentUpon>Make_your_own_t_shirt_intro.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Nyhet.xaml.cs">
+      <DependentUpon>Nyhet.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Screen_1.xaml.cs">
       <DependentUpon>Screen_1.xaml</DependentUpon>
     </Compile>
+    <Page Include="Copy_of_Screen_1.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Copy_of_Screen_1_1.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Events.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -86,6 +105,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Make_your_own_t_shirt_intro.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Nyhet.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>

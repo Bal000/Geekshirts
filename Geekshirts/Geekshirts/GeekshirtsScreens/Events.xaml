@@ -4,8 +4,9 @@
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
 	mc:Ignorable="d"
-	x:Class="GeekshirtsScreens.Screen_1"
+	x:Class="GeekshirtsScreens.Events"
 	Width="955" Height="650">
 
 	<Grid x:Name="LayoutRoot" Background="White" Width="955" Height="650">
@@ -16,22 +17,18 @@
 		<TextBlock HorizontalAlignment="Right" Margin="0,47,215,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" Opacity="0.5"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,20,207,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Opacity="0.5" Foreground="#FF606060" FontWeight="Bold"/>
 		<Path Data="M0,109.09091 L955,109.09091" Height="5" Margin="0,138,-1,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Fill="#FFAD2456" StrokeThickness="2" Width="900" HorizontalAlignment="Center"/>
+		<Rectangle Fill="#FFEAFFEC" Margin="39,177,41,183" Stroke="Black" RadiusY="45" RadiusX="45"/>
 		<TextBlock HorizontalAlignment="Left" Margin="138,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"><Run Text="Forum"/><LineBreak/><Run/></TextBlock>
-		<TextBlock Margin="0,109,407,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" d:LayoutOverrides="HorizontalAlignment">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="MouseLeftButtonDown">
-					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Events"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers><Run Text="Events"/><LineBreak/><Run/></TextBlock>
-		<TextBlock HorizontalAlignment="Left" Margin="388,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="MouseLeftButtonDown">
-					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Copy_of_Screen_1"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers><Run Text="News"/><LineBreak/><Run/></TextBlock>
+		<TextBlock Margin="0,109,407,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" d:LayoutOverrides="HorizontalAlignment"><Run Text="Events"/><LineBreak/><Run/></TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="388,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"><Run Text="News"/><LineBreak/><Run/></TextBlock>
 		<TextBlock Margin="0,109,145,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Design your own T-shirt" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,109,41,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="On sale" VerticalAlignment="Top" FontWeight="Bold"/>
 		<TextBlock HorizontalAlignment="Left" Margin="248,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Webshop" VerticalAlignment="Top" FontWeight="Bold"/>
 		<TextBlock HorizontalAlignment="Left" Margin="39,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Width="57" Height="25"><Run Text="Home"/><LineBreak/><Run/></TextBlock>
+		<sdk:Calendar Margin="86,236,0,243" HorizontalAlignment="Left" Width="173"/>
+		<sdk:Label HorizontalAlignment="Left" Margin="86,199,0,0" VerticalAlignment="Top" Content="EVENTS" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" FontSize="26.667" RenderTransformOrigin="-0.673,0.47" OpacityMask="Black"/>
+		<ScrollViewer Margin="278,236,97,243" Background="White" Foreground="Black" OpacityMask="Black">
+			<TextBlock Height="136" TextWrapping="Wrap" Width="539" FontSize="14.667" Foreground="Black"><Run FontWeight="Bold" FontSize="18.667" FontFamily="Verdana, Arial, Arial Unicode MS, Lucida Sans Unicode, Lucida Grande" Text="ComicCon"/><LineBreak/><Run FontWeight="Bold" FontSize="13.333" FontFamily="Verdana, Arial, Arial Unicode MS, Lucida Sans Unicode, Lucida Grande" Text="2012-07-16"/><LineBreak/><Run FontWeight="Bold" FontSize="13.333" FontFamily="Verdana, Arial, Arial Unicode MS, Lucida Sans Unicode, Lucida Grande" Text="Skövde"/><LineBreak FontFamily="Verdana, Arial, Arial Unicode MS, Lucida Sans Unicode, Lucida Grande"/><Run Text="Den 16 juni så smäller det. ComicCon i Skövde händer i år igen! Ta med ryggsäcken fullproppad med serier och visa upp för dom andra på konventet. Köp, sälj, diskutera och framförallt; LÄS. "/></TextBlock>
+		</ScrollViewer>
 	</Grid>
 </UserControl>

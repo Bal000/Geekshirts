@@ -68,10 +68,12 @@
     <Reference Include="Microsoft.Expression.Controls" />
     <Reference Include="Microsoft.Expression.Drawing" />
     <Reference Include="mscorlib" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Windows" />
     <Reference Include="system" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Controls.Data.Input" />
     <Reference Include="System.Windows.Controls.Navigation" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Windows.Browser" />

@@ -39,6 +39,42 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>GeekshirtsScreens.Copy_of_Screen_1</ClassName>
+      <DisplayName>News</DisplayName>
+      <FileName>Copy_of_Screen_1.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-324</X>
+        <Y>-391</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Composition</Type>
+      <ClassName>GeekshirtsScreens.Nyhet</ClassName>
+      <DisplayName>Nyhet</DisplayName>
+      <FileName>Nyhet.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-27</X>
+        <Y>-376</Y>
+      </Position>
+      <VisualTag>1</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>GeekshirtsScreens.Events</ClassName>
+      <DisplayName>Events</DisplayName>
+      <FileName>Events.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-337</X>
+        <Y>-328</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -51,6 +87,34 @@
     <Connection>
       <Source>GeekshirtsScreens.Screen_1</Source>
       <Target>GeekshirtsScreens.Make_your_own_t_shirt</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Screen_1</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Events</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Events</Source>
+      <Target>GeekshirtsScreens.Make_your_own_t_shirt</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Screen_1</Source>
+      <Target>GeekshirtsScreens.Events</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
@@ -100,10 +164,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>1</Zoom>
+    <Zoom>0.83333333333333337</Zoom>
     <Center>
-      <X>-27.494819624819627</X>
-      <Y>-376.17799783549782</Y>
+      <X>9.7638831168831075</X>
+      <Y>-351.02673446972739</Y>
     </Center>
   </ViewState>
 </Data>

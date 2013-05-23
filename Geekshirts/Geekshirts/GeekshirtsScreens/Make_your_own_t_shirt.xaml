@@ -18,10 +18,10 @@
 		<TextBlock HorizontalAlignment="Right" Margin="0,109,90,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="On sale" VerticalAlignment="Top" FontWeight="Bold"/>
 		<TextBlock HorizontalAlignment="Left" Margin="245,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Webshop" VerticalAlignment="Top" FontWeight="Bold"/>
 		<Image HorizontalAlignment="Left" Height="65" Source="Images/Icons/Geeklogo.png" Stretch="Fill" VerticalAlignment="Top" Width="350" Margin="35,20,0,0"/>
-		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="88" Margin="0,8,27,0" Stroke="Black" VerticalAlignment="Top" Width="250" Opacity="0.5"/>
+		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="76" Margin="0,9,35,0" Stroke="Black" VerticalAlignment="Top" Width="250" Opacity="0.5"/>
 		<Image Margin="864,20,41,580" Source="Images/Icons/14553490-shopping-cart-icon.jpg" Stretch="Fill" Width="50" Height="50" Opacity="0.5"/>
-		<TextBlock HorizontalAlignment="Right" Margin="0,75,229,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" Opacity="0.5"/>
-		<TextBlock HorizontalAlignment="Right" Margin="0,50,229,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Opacity="0.5" Foreground="#FF606060" FontWeight="Bold"/>
+		<TextBlock HorizontalAlignment="Right" Margin="0,47,223,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" Opacity="0.5"/>
+		<TextBlock HorizontalAlignment="Right" Margin="0,20,215,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Opacity="0.5" Foreground="#FF606060" FontWeight="Bold"/>
 		<TextBlock HorizontalAlignment="Left" Margin="52,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Width="45" Height="25"><Run Text="Home"/><LineBreak/><Run/></TextBlock>
 		<Image Margin="128,229,652,221" Source="Images/Icons/ist2_313762-adult-size-white-t-shirt.jpeg" Stretch="Fill" Width="175" Height="200" d:LayoutOverrides="VerticalAlignment"/>
 		<Image Margin="670,229,110,221" Source="Images/Icons/ist2_313762-adult-size-white-t-shirt.jpeg" Stretch="Fill" Width="175" Height="200" d:LayoutOverrides="VerticalAlignment"/>
@@ -69,5 +69,6 @@
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</TextBlock>
+		<Path Data="M0,109.09091 L955,109.09091" Height="5" Margin="0,138,-1,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Fill="#FFAD2456" StrokeThickness="2" Width="900" HorizontalAlignment="Center"/>
 	</Grid>
 </UserControl>
