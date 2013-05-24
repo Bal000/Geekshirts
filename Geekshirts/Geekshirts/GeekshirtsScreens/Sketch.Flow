@@ -75,6 +75,18 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>GeekshirtsScreens.RegisterPage</ClassName>
+      <DisplayName>RegisterPage</DisplayName>
+      <FileName>RegisterPage.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-488</X>
+        <Y>-397</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -115,6 +127,20 @@
     <Connection>
       <Source>GeekshirtsScreens.Screen_1</Source>
       <Target>GeekshirtsScreens.Events</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.RegisterPage</Source>
+      <Target>GeekshirtsScreens.Events</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.RegisterPage</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
@@ -164,10 +190,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.83333333333333337</Zoom>
+    <Zoom>0.33333333333333331</Zoom>
     <Center>
-      <X>9.7638831168831075</X>
-      <Y>-351.02673446972739</Y>
+      <X>-584.037755975908</X>
+      <Y>-326.38766950765188</Y>
     </Center>
   </ViewState>
 </Data>

@@ -10,17 +10,13 @@
 	<Grid x:Name="LayoutRoot" Background="#FFEDEDED" Width="955" Height="650">
 		<Path Data="M0,109.09091 L955,109.09091" Height="5" Margin="0,100,-1,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Fill="#FFAD2456" StrokeThickness="2" Width="900" HorizontalAlignment="Center"/>
 		<Image HorizontalAlignment="Left" Height="65" Source="Images/Icons/Geeklogo.png" Stretch="Fill" VerticalAlignment="Top" Width="350" Margin="35,20,0,0"/>
-		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="76" Margin="0,9,31,0" Stroke="Black" VerticalAlignment="Top" Width="250" Opacity="0.5"/>
-		<Image Margin="864,20,41,580" Source="Images/Icons/14553490-shopping-cart-icon.jpg" Stretch="Fill" Width="50" Height="50" Opacity="0.5"/>
-		<TextBlock HorizontalAlignment="Right" Margin="0,47,214,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" Opacity="0.5"/>
-		<TextBlock HorizontalAlignment="Right" Margin="0,20,206,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Opacity="0.5" Foreground="#FF606060" FontWeight="Bold"/>
 		<Rectangle Fill="#FFD1DCD2" Margin="59,214,0,116" Stroke="Black" HorizontalAlignment="Left" Width="210" Height="320"/>
 		<ComboBox Margin="78,249,0,0" Width="172" HorizontalAlignment="Left" IsSynchronizedWithCurrentItem="False" SelectedIndex="0" FontFamily="/Geekshirt.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" FontSize="18.667" Height="25" VerticalAlignment="Top">
-			<ComboBoxItem Content="Choose Category" Style="{StaticResource ComboBoxItem-Sketch}" FontSize="18.667"/>
-			<ComboBoxItem Content="Men" Style="{StaticResource ComboBoxItem-Sketch}" FontSize="18.667"/>
-			<ComboBoxItem Content="Women" FontSize="18.667"/>
-			<ComboBoxItem Content="Child &amp; Babies" FontSize="18.667"/>
-			<ComboBoxItem Content="News" FontSize="18.667"/>
+			<ComboBoxItem Content="Choose Category" Style="{StaticResource ComboBoxItem-Sketch}" FontSize="18.667" FontStyle="Italic" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+			<ComboBoxItem Content="Men" Style="{StaticResource ComboBoxItem-Sketch}" FontSize="18.667" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+			<ComboBoxItem Content="Women" FontSize="18.667" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+			<ComboBoxItem Content="Child &amp; Babies" FontSize="18.667" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+			<ComboBoxItem Content="News" FontSize="18.667" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
 		</ComboBox>
 		<Image x:Name="blueShirt" Margin="78,295,0,295" Source="Images/Shirts/blue t-shirt.jpg" Stretch="Fill" Width="50" HorizontalAlignment="Left" Height="60"/>
 		<Image x:Name="blackShirt" HorizontalAlignment="Left" Height="60" Margin="139,0,0,149" Source="Images/Shirts/t-shirt black.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="50" d:LayoutOverrides="VerticalAlignment"/>
@@ -32,26 +28,31 @@
 		<Image Height="60" Margin="139,0,0,295" Source="Images/Shirts/brown t-shirt.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="50" HorizontalAlignment="Left"/>
 		<Image x:Name="purpleShirt_Copy" HorizontalAlignment="Left" Height="60" Margin="198,0,0,149" Source="Images/Shirts/t-shirt white.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="50"/>
 		<Image x:Name="purpleShirt_Copy1" HorizontalAlignment="Left" Margin="354,267,0,183" Source="Images/Shirts/t-shirt white.jpg" Stretch="Fill" Width="150" Height="200" ToolTipService.ToolTip="Your t-shirt"/>
-		<TextBlock Height="25" Margin="0,168,215,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Pick your color:" VerticalAlignment="Top" FontSize="21.333" HorizontalAlignment="Right" Width="130"/>
-		<TextBlock HorizontalAlignment="Left" Height="25" Margin="52,168,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="355" FontWeight="Bold" FontSize="21.333" Text="Here you can put attributes on your t-shirt" d:LayoutOverrides="HorizontalAlignment"/>
-		<TextBlock HorizontalAlignment="Right" Height="25" Margin="0,0,225,96" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Pick your size" VerticalAlignment="Bottom" Width="120" FontSize="21.333"/>
-		<TextBlock HorizontalAlignment="Right" Height="25" Margin="0,0,225,295" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Pick your print" VerticalAlignment="Bottom" Width="120" FontSize="21.333"/>
-		<Image HorizontalAlignment="Right" Margin="0,203,145,0" Source="Images/Colors/new Colors.jpg" Stretch="Fill" Width="200" Height="100" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
-		<ComboBox Height="25" Margin="0,0,145,264" VerticalAlignment="Bottom" SelectedIndex="1" HorizontalAlignment="Right" Width="200">
-			<ComboBoxItem Content="Choose genre" Style="{StaticResource ComboBoxItem-Sketch}" FontSize="18.667" FontWeight="Bold"/>
-			<ComboBoxItem Content="Star wars" Style="{StaticResource ComboBoxItem-Sketch}" FontSize="18.667" FontWeight="Bold"/>
+		<TextBlock Height="25" Margin="0,168,215,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Pick your color:" VerticalAlignment="Top" FontSize="21.333" HorizontalAlignment="Right" Width="130" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" TextDecorations="Underline"/>
+		<TextBlock HorizontalAlignment="Left" Height="25" Margin="52,168,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="355" FontWeight="Bold" FontSize="21.333" Text="Here you can put attributes on your t-shirt:" d:LayoutOverrides="HorizontalAlignment" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Right" Height="25" Margin="0,0,215,149" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Pick your size" VerticalAlignment="Bottom" Width="120" FontSize="21.333" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Right" Height="25" Margin="0,295,215,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Pick your print" VerticalAlignment="Top" Width="120" FontSize="21.333" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" TextDecorations="Underline"/>
+		<Image HorizontalAlignment="Right" Margin="0,203,145,0" Source="Images/Colors/new Colors.jpg" Stretch="Fill" Width="200" Height="80" VerticalAlignment="Top"/>
+		<ComboBox Height="25" Margin="0,0,145,295" VerticalAlignment="Bottom" SelectedIndex="1" HorizontalAlignment="Right" Width="200">
+			<ComboBoxItem Content="Choose genre" Style="{StaticResource ComboBoxItem-Sketch}" FontSize="18.667" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+			<ComboBoxItem Content="Star wars" Style="{StaticResource ComboBoxItem-Sketch}" FontSize="18.667" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
 		</ComboBox>
-		<Image Height="100" Margin="0,0,145,149" Source="Images/Icons/star wars prints.PNG" Stretch="Fill" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="200"/>
-		<Image HorizontalAlignment="Right" Height="30" Margin="0,0,45,49" Source="Images/Icons/size calendar.PNG" Stretch="Fill" VerticalAlignment="Bottom" Width="300"/>
-		<TextBlock HorizontalAlignment="Left" Height="15" Margin="28,0,0,49" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="250"><Run Text="Dont know your size? Click the link"/><Run Text=" below."/></TextBlock>
-		<TextBlock Height="20" Margin="28,0,797,25" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Bottom" TextDecorations="Underline" Foreground="#FF16379D" Text="T-shirt size chart  &gt;&gt;&gt; " Width="130"/>
+		<Image Height="80" Margin="0,0,145,202" Source="Images/Icons/star wars prints.PNG" Stretch="Fill" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="200"/>
+		<Image HorizontalAlignment="Right" Height="30" Margin="0,0,45,115" Source="Images/Icons/size calendar.PNG" Stretch="Fill" VerticalAlignment="Bottom" Width="300"/>
+		<TextBlock HorizontalAlignment="Right" Height="15" Margin="0,0,85,69" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="250" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"><Run Text="Dont know your size? Click the link"/><Run Text=" below."/></TextBlock>
+		<TextBlock Height="20" Margin="620,0,205,45" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Bottom" TextDecorations="Underline" Foreground="#FF16379D" Text="T-shirt size chart  &gt;&gt;&gt; " Width="130" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
 		<Path Data="M0,109.09091 L955,109.09091" Height="5" Margin="0,138,-1,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Fill="#FFAD2456" StrokeThickness="2" Width="900" HorizontalAlignment="Center"/>
-		<TextBlock HorizontalAlignment="Left" Margin="138,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"><Run Text="Forum"/><LineBreak/><Run/></TextBlock>
-		<TextBlock Margin="0,109,407,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" d:LayoutOverrides="HorizontalAlignment"><Run Text="Events"/><LineBreak/><Run/></TextBlock>
-		<TextBlock HorizontalAlignment="Left" Margin="388,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"><Run Text="News"/><LineBreak/><Run/></TextBlock>
-		<TextBlock Margin="0,109,145,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Design your own T-shirt" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold"/>
-		<TextBlock HorizontalAlignment="Right" Margin="0,109,41,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="On sale" VerticalAlignment="Top" FontWeight="Bold"/>
-		<TextBlock HorizontalAlignment="Left" Margin="248,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Webshop" VerticalAlignment="Top" FontWeight="Bold"/>
-		<TextBlock HorizontalAlignment="Left" Margin="39,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Width="57" Height="25"><Run Text="Home"/><LineBreak/><Run/></TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="138,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"><Run Text="Forum"/><LineBreak/><Run/></TextBlock>
+		<TextBlock Margin="0,109,407,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" d:LayoutOverrides="HorizontalAlignment" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"><Run Text="Events"/><LineBreak/><Run/></TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="388,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"><Run Text="News"/><LineBreak/><Run/></TextBlock>
+		<TextBlock Margin="0,109,145,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Design your own T-shirt" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Right" Margin="0,109,41,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="On sale" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Left" Margin="248,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Webshop" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Left" Margin="39,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Width="57" Height="25" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"><Run Text="Home"/><LineBreak/><Run/></TextBlock>
+		<Image Height="35" Margin="448,0,407,110" Source="add to cart.PNG" Stretch="Fill" VerticalAlignment="Bottom" Width="100"/>
+		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="76" Margin="0,9,35,0" Stroke="Black" VerticalAlignment="Top" Width="250" Opacity="0.5"/>
+		<Image Margin="864,20,41,580" Source="Images/Icons/14553490-shopping-cart-icon.jpg" Stretch="Fill" Width="50" Height="50" Opacity="0.5"/>
+		<TextBlock HorizontalAlignment="Right" Margin="0,50,232,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" Opacity="0.5" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Right" Margin="0,20,231,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Opacity="0.5" Foreground="#FF606060" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
 	</Grid>
 </UserControl>
