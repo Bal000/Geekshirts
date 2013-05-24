@@ -27,9 +27,10 @@
 		<ScrollViewer Margin="86,236,90,82" Background="White" Foreground="Black" OpacityMask="Black">
 			<TextBlock Height="309" TextWrapping="Wrap" Width="732" FontSize="14.667" Foreground="Black"><Run FontWeight="Bold" FontSize="18.667" Text="Nya t-shirts i lager! "/><LineBreak/><Run FontWeight="Bold" FontSize="13.333" Text="2012-08-17"/><LineBreak/><Run FontSize="13.333" Text="Nu finns nya t-shirts med Star Wars- och World of Warcraft-tryck. Begränsat parti!"/><LineBreak/><Run/><LineBreak/><Run FontWeight="Bold" FontSize="18.667" Text="Ny hemsida på gång!"/><LineBreak/><Run FontWeight="Bold" FontSize="13.333" Text="2012-07-16"/><LineBreak/><Run FontSize="13.333" Text="Vi på Geekshirt vill meddela alla kunder och fans där ute att vi har en ny fräsch hemsida på gång"/><LineBreak/><Run FontSize="13.333" Text="som kommer att lanseras i början av juni 2013. "/></TextBlock>
 		</ScrollViewer>
-		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="76" Margin="0,9,35,0" Stroke="Black" VerticalAlignment="Top" Width="250" Opacity="0.5"/>
-		<Image Margin="864,20,41,580" Source="Images/Icons/14553490-shopping-cart-icon.jpg" Stretch="Fill" Width="50" Height="50" Opacity="0.5"/>
-		<TextBlock HorizontalAlignment="Right" Margin="0,50,232,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" Opacity="0.5" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
-		<TextBlock HorizontalAlignment="Right" Margin="0,20,231,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Opacity="0.5" Foreground="#FF606060" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="76" Margin="0,9,27,0" Stroke="Black" VerticalAlignment="Top" Width="250"/>
+		<Image Margin="864,20,41,580" Source="Images/Icons/14553490-shopping-cart-icon.jpg" Stretch="Fill" Width="50" Height="50"/>
+		<TextBlock HorizontalAlignment="Right" Margin="0,36,233,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Right" Margin="0,16,232,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Foreground="#FF606060" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<Image HorizontalAlignment="Right" Height="17" Margin="0,60,191,0" Source="Images/Icons/checkout.PNG" Stretch="Fill" VerticalAlignment="Top" Width="78"/>
 	</Grid>
 </UserControl>

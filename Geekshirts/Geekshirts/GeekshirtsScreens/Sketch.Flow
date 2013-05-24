@@ -10,8 +10,8 @@
       <FileName>Screen_1.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-488</X>
-        <Y>-432</Y>
+        <X>-480</X>
+        <Y>-1336</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -22,8 +22,8 @@
       <FileName>Make_your_own_t_shirt.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-309</X>
-        <Y>-441</Y>
+        <X>-302</X>
+        <Y>-1346</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -34,8 +34,8 @@
       <FileName>Make_your_own_t_shirt_intro.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-113</X>
-        <Y>-441</Y>
+        <X>-106</X>
+        <Y>-1346</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -46,8 +46,8 @@
       <FileName>Copy_of_Screen_1.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-324</X>
-        <Y>-391</Y>
+        <X>-316</X>
+        <Y>-1296</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -58,8 +58,8 @@
       <FileName>Nyhet.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-27</X>
-        <Y>-376</Y>
+        <X>-20</X>
+        <Y>-1280</Y>
       </Position>
       <VisualTag>1</VisualTag>
     </Screen>
@@ -70,8 +70,8 @@
       <FileName>Events.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-337</X>
-        <Y>-328</Y>
+        <X>-330</X>
+        <Y>-1232</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -82,8 +82,32 @@
       <FileName>RegisterPage.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-488</X>
-        <Y>-397</Y>
+        <X>-480</X>
+        <Y>-1302</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>GeekshirtsScreens.Size_Chart</ClassName>
+      <DisplayName>Size Chart</DisplayName>
+      <FileName>Size_Chart.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-480</X>
+        <Y>-1266</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>GeekshirtsScreens.On_Sale</ClassName>
+      <DisplayName>On Sale</DisplayName>
+      <FileName>On_Sale.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-480</X>
+        <Y>-1231</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -145,6 +169,55 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Size_Chart</Source>
+      <Target>GeekshirtsScreens.Events</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Size_Chart</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Make_your_own_t_shirt_intro</Source>
+      <Target>GeekshirtsScreens.Size_Chart</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Size_Chart</Source>
+      <Target>GeekshirtsScreens.Make_your_own_t_shirt_intro</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.On_Sale</Source>
+      <Target>GeekshirtsScreens.Events</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.On_Sale</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.On_Sale</Source>
+      <Target>GeekshirtsScreens.Make_your_own_t_shirt</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -190,10 +263,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.33333333333333331</Zoom>
+    <Zoom>0.66666666666666663</Zoom>
     <Center>
-      <X>-584.037755975908</X>
-      <Y>-326.38766950765188</Y>
+      <X>-122.08129730057783</X>
+      <Y>-1259.7143443847076</Y>
     </Center>
   </ViewState>
 </Data>
