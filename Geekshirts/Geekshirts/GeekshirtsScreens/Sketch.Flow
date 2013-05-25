@@ -70,8 +70,8 @@
       <FileName>Events.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-330</X>
-        <Y>-1232</Y>
+        <X>-296</X>
+        <Y>-1210</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -118,8 +118,20 @@
       <FileName>Copy_of_Screen_1_2.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-480</X>
-        <Y>-1196</Y>
+        <X>-478</X>
+        <Y>-1178</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>GeekshirtsScreens.Copy_of_Screen_1_3</ClassName>
+      <DisplayName>Forum</DisplayName>
+      <FileName>Copy_of_Screen_1_3.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-371</X>
+        <Y>-1134</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -258,6 +270,34 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Copy_of_Screen_1_3</Source>
+      <Target>GeekshirtsScreens.Events</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Copy_of_Screen_1_3</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Copy_of_Screen_1_3</Source>
+      <Target>GeekshirtsScreens.Make_your_own_t_shirt</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Copy_of_Screen_1_2</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1_3</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -303,10 +343,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.75</Zoom>
+    <Zoom>1.25</Zoom>
     <Center>
-      <X>-122.08129730057783</X>
-      <Y>-1259.7143443847076</Y>
+      <X>-318.6075662591345</X>
+      <Y>-1204.76344979935</Y>
     </Center>
   </ViewState>
 </Data>

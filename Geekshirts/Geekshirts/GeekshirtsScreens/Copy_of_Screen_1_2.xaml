@@ -4,6 +4,7 @@
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity"
+	xmlns:ee="http://schemas.microsoft.com/expression/2010/effects"
 	mc:Ignorable="d"
 	x:Class="GeekshirtsScreens.Copy_of_Screen_1_2"
 	Width="955" Height="650">
@@ -89,13 +90,24 @@
 									<VisualState x:Name="MouseOver">
 										<Storyboard>
 											<DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image" d:IsOptimized="True"/>
+											<DoubleAnimation Duration="0" To="0" Storyboard.TargetProperty="(UIElement.Effect).(ColorToneEffect.Desaturation)" Storyboard.TargetName="image" d:IsOptimized="True"/>
+											<DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBlock1" d:IsOptimized="True"/>
+											<DoubleAnimation Duration="0" To="8" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="textBlock1" d:IsOptimized="True"/>
+											<DoubleAnimation Duration="0" To="-3" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="textBlock1" d:IsOptimized="True"/>
 										</Storyboard>
 									</VisualState>
 									<VisualState x:Name="Pressed"/>
 									<VisualState x:Name="Disabled"/>
 								</VisualStateGroup>
 							</VisualStateManager.VisualStateGroups>
-							<Image x:Name="image" Opacity="0.33" Source="Images/Front/mrs-curlies-webshop.jpg" Stretch="Fill"/>
+							<Image x:Name="image" Opacity="0.5" Source="Images/Front/mrs-curlies-webshop.jpg" Stretch="Fill">
+								<Image.Effect>
+									<ee:ColorToneEffect LightColor="White" DarkColor="Black" ToneAmount="0"/>
+								</Image.Effect>
+							</Image>
+							<TextBlock x:Name="textBlock1" Margin="14,0,9,-24" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Bottom" RenderTransformOrigin="0.26,1.212" Foreground="Black" Text="Shop 'til you drop!" Opacity="0"><TextBlock.RenderTransform>
+									<CompositeTransform/>
+								</TextBlock.RenderTransform></TextBlock>
 						</Grid>
 					</ControlTemplate>
 				</Setter.Value>
@@ -112,13 +124,18 @@
 									<VisualState x:Name="MouseOver">
 										<Storyboard>
 											<DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image" d:IsOptimized="True"/>
+											<DoubleAnimation Duration="0" To="0" Storyboard.TargetProperty="(UIElement.Effect).(ColorToneEffect.Desaturation)" Storyboard.TargetName="image" d:IsOptimized="True"/>
 										</Storyboard>
 									</VisualState>
 									<VisualState x:Name="Pressed"/>
 									<VisualState x:Name="Disabled"/>
 								</VisualStateGroup>
 							</VisualStateManager.VisualStateGroups>
-							<Image x:Name="image" Opacity="0.33" Source="/Images/Front/One_ejected_three_injured_in_accident0_1368559694.jpg" Stretch="Fill"/>
+							<Image x:Name="image" Opacity="0.5" Source="/Images/Front/One_ejected_three_injured_in_accident0_1368559694.jpg" Stretch="Fill">
+								<Image.Effect>
+									<ee:ColorToneEffect LightColor="White" DarkColor="Black" ToneAmount="0"/>
+								</Image.Effect>
+							</Image>
 						</Grid>
 					</ControlTemplate>
 				</Setter.Value>
@@ -135,13 +152,18 @@
 									<VisualState x:Name="MouseOver">
 										<Storyboard>
 											<DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image" d:IsOptimized="True"/>
+											<DoubleAnimation Duration="0" To="0" Storyboard.TargetProperty="(UIElement.Effect).(ColorToneEffect.Desaturation)" Storyboard.TargetName="image" d:IsOptimized="True"/>
 										</Storyboard>
 									</VisualState>
 									<VisualState x:Name="Pressed"/>
 									<VisualState x:Name="Disabled"/>
 								</VisualStateGroup>
 							</VisualStateManager.VisualStateGroups>
-							<Image x:Name="image" Source="Images/Front/DesignYourOwn.jpg" Stretch="Fill" Opacity="0.33"/>
+							<Image x:Name="image" Source="Images/Front/DesignYourOwn.jpg" Stretch="Fill" Opacity="0.5">
+								<Image.Effect>
+									<ee:ColorToneEffect DarkColor="Black" LightColor="White" ToneAmount="0"/>
+								</Image.Effect>
+							</Image>
 						</Grid>
 					</ControlTemplate>
 				</Setter.Value>
@@ -164,7 +186,6 @@
 									<VisualState x:Name="Disabled"/>
 								</VisualStateGroup>
 							</VisualStateManager.VisualStateGroups>
-							<Image x:Name="image" Opacity="0.33" Source="Images/Front/Forum-posting.jpg" Stretch="Fill"/>
 						</Grid>
 					</ControlTemplate>
 				</Setter.Value>
@@ -187,18 +208,22 @@
 											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(TextBlock.Text)" Storyboard.TargetName="textBlock1">
 												<DiscreteObjectKeyFrame KeyTime="0" Value="Events! Bring 'em on!"/>
 											</ObjectAnimationUsingKeyFrames>
+											<DoubleAnimation Duration="0" To="0" Storyboard.TargetProperty="(UIElement.Effect).(ColorToneEffect.Desaturation)" Storyboard.TargetName="image" d:IsOptimized="True"/>
 										</Storyboard>
 									</VisualState>
 									<VisualState x:Name="Pressed"/>
 									<VisualState x:Name="Disabled"/>
 								</VisualStateGroup>
 							</VisualStateManager.VisualStateGroups>
-							<Image x:Name="image" Opacity="0.33" Source="Images/Front/photo.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+							<Image x:Name="image" Opacity="0.5" Source="Images/Front/photo.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+								<Image.Effect>
+									<ee:ColorToneEffect DarkColor="Black" LightColor="White" ToneAmount="0"/>
+								</Image.Effect>
 								<Image.RenderTransform>
 									<CompositeTransform/>
 								</Image.RenderTransform>
 							</Image>
-							<TextBlock x:Name="textBlock1" HorizontalAlignment="Right" Margin="0,0,-22,-48" Opacity="0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5"><TextBlock.RenderTransform>
+							<TextBlock x:Name="textBlock1" HorizontalAlignment="Right" Margin="0,0,-22,-48" Opacity="0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" Foreground="Black"><TextBlock.RenderTransform>
 									<CompositeTransform/>
 								</TextBlock.RenderTransform></TextBlock>
 						</Grid>
@@ -217,13 +242,46 @@
 									<VisualState x:Name="MouseOver">
 										<Storyboard>
 											<DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image" d:IsOptimized="True"/>
+											<DoubleAnimation Duration="0" To="0" Storyboard.TargetProperty="(UIElement.Effect).(ColorToneEffect.Desaturation)" Storyboard.TargetName="image" d:IsOptimized="True"/>
 										</Storyboard>
 									</VisualState>
 									<VisualState x:Name="Pressed"/>
 									<VisualState x:Name="Disabled"/>
 								</VisualStateGroup>
 							</VisualStateManager.VisualStateGroups>
-							<Image x:Name="image" Opacity="0.33" Source="Images/Front/Sale.jpg" Stretch="Fill"/>
+							<Image x:Name="image" Opacity="0.495" Source="Images/Front/Sale.jpg" Stretch="Fill">
+								<Image.Effect>
+									<ee:ColorToneEffect LightColor="White" DarkColor="Black" ToneAmount="0"/>
+								</Image.Effect>
+							</Image>
+						</Grid>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle10" TargetType="Button">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Grid>
+							<VisualStateManager.VisualStateGroups>
+								<VisualStateGroup x:Name="CommonStates">
+									<VisualState x:Name="Normal"/>
+									<VisualState x:Name="MouseOver">
+										<Storyboard>
+											<DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image" d:IsOptimized="True"/>
+											<DoubleAnimation Duration="0" To="0" Storyboard.TargetProperty="(UIElement.Effect).(ColorToneEffect.Desaturation)" Storyboard.TargetName="image" d:IsOptimized="True"/>
+										</Storyboard>
+									</VisualState>
+									<VisualState x:Name="Pressed"/>
+									<VisualState x:Name="Disabled"/>
+								</VisualStateGroup>
+							</VisualStateManager.VisualStateGroups>
+							<Image x:Name="image" Source="Images/Front/Forum-posting.jpg" Stretch="Fill" Opacity="0.5">
+								<Image.Effect>
+									<ee:ColorToneEffect LightColor="White" DarkColor="Black" ToneAmount="0"/>
+								</Image.Effect>
+							</Image>
 						</Grid>
 					</ControlTemplate>
 				</Setter.Value>
@@ -235,15 +293,17 @@
 		<Path Data="M0,109.09091 L955,109.09091" Height="5" Margin="0,100,-1,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Fill="#FFAD2456" StrokeThickness="2" Width="900" HorizontalAlignment="Center"/>
 		<Image HorizontalAlignment="Left" Height="65" Source="Images/Icons/Geeklogo.png" Stretch="Fill" VerticalAlignment="Top" Width="350" Margin="35,20,0,0"/>
 		<Path Data="M0,109.09091 L955,109.09091" Height="5" Margin="0,138,-1,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Fill="#FFAD2456" StrokeThickness="2" Width="900" HorizontalAlignment="Center"/>
-		<TextBlock HorizontalAlignment="Left" Margin="138,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"><Run Text="Forum"/><LineBreak/><Run/></TextBlock>
-		<TextBlock Margin="0,109,407,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" d:LayoutOverrides="HorizontalAlignment" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch">
-			<i:Interaction.Triggers>
+		<TextBlock HorizontalAlignment="Left" Margin="138,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"><i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseLeftButtonDown">
+					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Copy_of_Screen_1_3"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers><Run Text="Forum"/><LineBreak/><Run/></TextBlock>
+		<TextBlock Margin="0,109,407,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" d:LayoutOverrides="HorizontalAlignment" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"><i:Interaction.Triggers>
 				<i:EventTrigger EventName="MouseLeftButtonDown">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Events"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers><Run Text="Events"/><LineBreak/><Run/></TextBlock>
-		<TextBlock HorizontalAlignment="Left" Margin="388,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch">
-			<i:Interaction.Triggers>
+		<TextBlock HorizontalAlignment="Left" Margin="388,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"><i:Interaction.Triggers>
 				<i:EventTrigger EventName="MouseLeftButtonDown">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Copy_of_Screen_1"/>
 				</i:EventTrigger>
@@ -263,35 +323,35 @@
 		<TextBlock HorizontalAlignment="Right" Margin="0,36,233,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,16,232,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Foreground="#FF606060" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
 		<Image HorizontalAlignment="Right" Height="17" Margin="0,60,191,0" Source="Images/Icons/checkout.PNG" Stretch="Fill" VerticalAlignment="Top" Width="78"/>
-		<Button Content="" Height="150" Margin="0,180,143,320" Style="{StaticResource ButtonStyle5}" d:LayoutOverrides="VerticalAlignment" HorizontalAlignment="Right" Width="150">
+		<Button Content="" Height="150" Margin="0,207,143,293" Style="{StaticResource ButtonStyle5}" d:LayoutOverrides="VerticalAlignment" HorizontalAlignment="Right" Width="150">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Copy_of_Screen_1"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
-		<Button Content="Button" Height="150" Margin="370,180,435,320" Style="{StaticResource ButtonStyle4}" Width="150" d:LayoutOverrides="VerticalAlignment"/>
-		<Button Content="Button" Height="150" Margin="370,0,435,104" Style="{StaticResource ButtonStyle6}" Background="{x:Null}" VerticalAlignment="Bottom" d:LayoutOverrides="Height">
+		<Button Content="Button" Height="150" Margin="370,207,435,293" Style="{StaticResource ButtonStyle4}" Width="150" d:LayoutOverrides="VerticalAlignment" Background="{x:Null}"/>
+		<Button Content="Button" Height="150" Margin="370,0,435,97" Style="{StaticResource ButtonStyle6}" Background="{x:Null}" VerticalAlignment="Bottom" d:LayoutOverrides="Height">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Make_your_own_t_shirt"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
-		<Button Content="Button" HorizontalAlignment="Left" Margin="89,180,0,320" Style="{StaticResource ButtonStyle7}" Width="150" d:LayoutOverrides="Width"/>
-		<Button Content="Button" HorizontalAlignment="Left" Height="150" Margin="89,0,0,104" Style="{StaticResource ButtonStyle8}" Width="150" VerticalAlignment="Bottom" d:LayoutOverrides="Height" Background="{x:Null}">
+		<Button Content="Button" HorizontalAlignment="Left" Height="150" Margin="89,0,0,97" Style="{StaticResource ButtonStyle8}" Width="150" VerticalAlignment="Bottom" d:LayoutOverrides="Height" Background="{x:Null}">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Events"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
-		<Button Content="Button" HorizontalAlignment="Right" Height="150" Margin="0,0,143,104" Style="{StaticResource ButtonStyle9}" VerticalAlignment="Bottom" Width="150">
+		<Button Content="Button" HorizontalAlignment="Right" Height="150" Margin="0,0,143,97" Style="{StaticResource ButtonStyle9}" VerticalAlignment="Bottom" Width="150">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.On_Sale"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
+		<Button Content="Button" HorizontalAlignment="Left" Height="150" Margin="89,207,0,293" Style="{StaticResource ButtonStyle10}" Width="150"/>
 	</Grid>
 </UserControl>

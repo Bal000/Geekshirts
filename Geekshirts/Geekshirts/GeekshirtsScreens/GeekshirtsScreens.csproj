@@ -44,6 +44,7 @@
   <ItemGroup>
     <Reference Include="Microsoft.Expression.Controls" />
     <Reference Include="Microsoft.Expression.Drawing" />
+    <Reference Include="Microsoft.Expression.Effects" />
     <Reference Include="mscorlib" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Windows" />
@@ -75,6 +76,9 @@
     </Compile>
     <Compile Include="Copy_of_Screen_1_2.xaml.cs">
       <DependentUpon>Copy_of_Screen_1_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Copy_of_Screen_1_3.xaml.cs">
+      <DependentUpon>Copy_of_Screen_1_3.xaml</DependentUpon>
     </Compile>
     <Compile Include="Events.xaml.cs">
       <DependentUpon>Events.xaml</DependentUpon>
@@ -112,6 +116,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Copy_of_Screen_1_2.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Copy_of_Screen_1_3.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
