@@ -5,7 +5,7 @@
 
 	<Grid x:Name="LayoutRoot" Background="White" Height="650">
 		<Path Data="M0,109.09091 L955,109.09091" Height="5" Margin="0,100,-1,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Fill="#FFAD2456" StrokeThickness="2" Width="900" HorizontalAlignment="Center"/>
-		<TextBlock HorizontalAlignment="Left" Margin="55,109,0,526" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Home" Width="50" FontFamily="/Geekshirt.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" Height="15" FontWeight="Bold"/>
+		<TextBlock HorizontalAlignment="Left" Margin="55,109,0,526" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Home" Width="50" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" Height="15" FontWeight="Bold"/>
 		<TextBlock HorizontalAlignment="Left" Margin="138,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"><Run Text="Forum"/><LineBreak/><Run/></TextBlock>
 		<TextBlock Margin="0,109,435,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold"><Run Text="Events"/><LineBreak/><Run/></TextBlock>
 		<TextBlock HorizontalAlignment="Left" Margin="371,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"><Run Text="News"/><LineBreak/><Run/></TextBlock>

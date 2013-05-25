@@ -13,25 +13,25 @@
 		<Path Data="M0,109.09091 L955,109.09091" Height="5" Margin="0,100,-1,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Fill="#FFAD2456" StrokeThickness="2" Width="900" HorizontalAlignment="Center"/>
 		<Image HorizontalAlignment="Left" Height="65" Source="Images/Icons/Geeklogo.png" Stretch="Fill" VerticalAlignment="Top" Width="350" Margin="35,20,0,0"/>
 		<Path Data="M0,109.09091 L955,109.09091" Height="5" Margin="0,138,-1,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Fill="#FFAD2456" StrokeThickness="2" Width="900" HorizontalAlignment="Center"/>
-		<TextBlock HorizontalAlignment="Left" Margin="138,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"><Run Text="Forum"/><LineBreak/><Run/></TextBlock>
-		<TextBlock Margin="0,109,407,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" d:LayoutOverrides="HorizontalAlignment" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"><i:Interaction.Triggers>
+		<TextBlock HorizontalAlignment="Left" Margin="138,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"><Run Text="Forum"/><LineBreak/><Run/></TextBlock>
+		<TextBlock Margin="0,109,407,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" d:LayoutOverrides="HorizontalAlignment" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"><i:Interaction.Triggers>
 				<i:EventTrigger EventName="MouseLeftButtonDown">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Events"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers><Run Text="Events"/><LineBreak/><Run/></TextBlock>
-		<TextBlock HorizontalAlignment="Left" Margin="388,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"><i:Interaction.Triggers>
+		<TextBlock HorizontalAlignment="Left" Margin="388,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"><i:Interaction.Triggers>
 				<i:EventTrigger EventName="MouseLeftButtonDown">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Copy_of_Screen_1"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers><Run Text="News"/><LineBreak/><Run/></TextBlock>
-		<TextBlock Margin="0,109,145,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Design your own T-shirt" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
-		<TextBlock HorizontalAlignment="Right" Margin="0,109,41,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="On sale" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
-		<TextBlock HorizontalAlignment="Left" Margin="248,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Webshop" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
-		<TextBlock HorizontalAlignment="Left" Margin="39,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Width="57" Height="25" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"><Run Text="Home"/><LineBreak/><Run/></TextBlock>
+		<TextBlock Margin="0,109,145,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Design your own T-shirt" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Right" Margin="0,109,41,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="On sale" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Left" Margin="248,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Webshop" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Left" Margin="39,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Width="57" Height="25" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"><Run Text="Home"/><LineBreak/><Run/></TextBlock>
 		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="76" Margin="0,9,27,0" Stroke="Black" VerticalAlignment="Top" Width="250"/>
 		<Image Margin="864,20,41,580" Source="Images/Icons/14553490-shopping-cart-icon.jpg" Stretch="Fill" Width="50" Height="50"/>
-		<TextBlock HorizontalAlignment="Right" Margin="0,36,233,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
-		<TextBlock HorizontalAlignment="Right" Margin="0,16,232,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Foreground="#FF606060" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Right" Margin="0,36,233,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Right" Margin="0,16,232,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Foreground="#FF606060" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
 		<Image HorizontalAlignment="Left" Margin="248,202,0,98" Source="Images/Miscellaneous/size chart.jpg" Stretch="Fill" Width="450" Height="350">
 			<Image.Effect>
 				<DropShadowEffect/>
@@ -45,7 +45,7 @@
 			</i:Interaction.Triggers>
 		</ed:BlockArrow>
 		<TextBlock HorizontalAlignment="Left" Margin="35,294,0,216" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Here you can work out your t-shirt size. Just follow the instructions to get the right size for You!" Width="167"/>
-		<TextBlock HorizontalAlignment="Left" Height="15" Margin="72,181,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Back" VerticalAlignment="Top" Width="30" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch">
+		<TextBlock HorizontalAlignment="Left" Height="15" Margin="72,181,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Back" VerticalAlignment="Top" Width="30" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="MouseLeftButtonDown">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Make_your_own_t_shirt_intro"/>

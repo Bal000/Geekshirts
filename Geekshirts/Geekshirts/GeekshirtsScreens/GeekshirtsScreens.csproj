@@ -73,8 +73,14 @@
     <Compile Include="Copy_of_Screen_1_1.xaml.cs">
       <DependentUpon>Copy_of_Screen_1_1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Copy_of_Screen_1_2.xaml.cs">
+      <DependentUpon>Copy_of_Screen_1_2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Events.xaml.cs">
       <DependentUpon>Events.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Images\Front\UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
     </Compile>
     <Compile Include="Make_your_own_t_shirt.xaml.cs">
       <DependentUpon>Make_your_own_t_shirt.xaml</DependentUpon>
@@ -105,7 +111,15 @@
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Copy_of_Screen_1_2.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Events.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Images\Front\UserControl1.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -146,7 +160,10 @@
       <Link>Properties\Version.cs</Link>
     </Compile>
     <Resource Include="add to cart.PNG" />
-    <Resource Include="Fonts\BuxtonSketch.ttf" />
+    <BlendEmbeddedFont Include="Fonts\BuxtonSketch.ttf">
+      <All>True</All>
+      <AutoFill>True</AutoFill>
+    </BlendEmbeddedFont>
     <Resource Include="Fonts\SketchFlow Print.ttf" />
     <Resource Include="Fonts\SegoeMarker.ttf" />
     <Resource Include="Images\Colors\blå fyrkant.PNG" />
@@ -157,6 +174,11 @@
     <Resource Include="Images\Colors\new Colors.jpg" />
     <Resource Include="Images\Colors\röd fyrkant.PNG" />
     <Resource Include="Images\Colors\svart fyrkant.PNG" />
+    <Resource Include="Images\Front\DesignYourOwn.jpg" />
+    <Resource Include="Images\Front\Forum-posting.jpg" />
+    <Resource Include="Images\Front\mrs-curlies-webshop.jpg" />
+    <Resource Include="Images\Front\photo.jpg" />
+    <Resource Include="Images\Front\Sale.jpg" />
     <Resource Include="Images\Icons\14553490-shopping-cart-icon.jpg" />
     <Resource Include="Images\Icons\checkout.PNG" />
     <Resource Include="Images\Icons\Geeklogo.png" />
@@ -191,11 +213,15 @@
     <Resource Include="Sketch.Flow" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Front\One_ejected_three_injured_in_accident0_1368559694.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\Shirts\T-shirt red.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Expression\Blend\Silverlight\v4.0\Microsoft.Expression.Blend.Silverlight.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 	     Other similar extension points exist, see Microsoft.Common.targets.
 	<Target Name="BeforeBuild">

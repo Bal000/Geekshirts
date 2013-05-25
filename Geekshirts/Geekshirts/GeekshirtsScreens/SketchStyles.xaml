@@ -27,7 +27,7 @@
 	<SolidColorBrush x:Key="DisabledBorder-Sketch" Color="#FF9F9F9F"/>
 	<SolidColorBrush x:Key="SelectedBackground-Sketch" Color="#FFAFAFAF"/>
 	<SolidColorBrush x:Key="Hyperlink-Sketch" Color="#FF73A9D8"/>
-	<FontFamily x:Key="FontFamily-Sketch">/Geekshirt.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch</FontFamily>
+	<FontFamily x:Key="FontFamily-Sketch">/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch</FontFamily>
 	<System:Double x:Key="SizeDouble-Sketch">19</System:Double>
 	<FontWeight x:Key="FontWeight-Sketch">Normal</FontWeight>
 

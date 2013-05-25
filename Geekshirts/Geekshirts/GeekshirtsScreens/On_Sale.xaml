@@ -12,33 +12,33 @@
 		<Path Data="M0,109.09091 L955,109.09091" Height="5" Margin="0,100,-1,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Fill="#FFAD2456" StrokeThickness="2" Width="900" HorizontalAlignment="Center"/>
 		<Image HorizontalAlignment="Left" Height="65" Source="Images/Icons/Geeklogo.png" Stretch="Fill" VerticalAlignment="Top" Width="350" Margin="35,20,0,0"/>
 		<Path Data="M0,109.09091 L955,109.09091" Height="5" Margin="0,138,-1,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Fill="#FFAD2456" StrokeThickness="2" Width="900" HorizontalAlignment="Center"/>
-		<TextBlock HorizontalAlignment="Left" Margin="138,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"><Run Text="Forum"/><LineBreak/><Run/></TextBlock>
-		<TextBlock Margin="0,109,407,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" d:LayoutOverrides="HorizontalAlignment" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch">
+		<TextBlock HorizontalAlignment="Left" Margin="138,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"><Run Text="Forum"/><LineBreak/><Run/></TextBlock>
+		<TextBlock Margin="0,109,407,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" d:LayoutOverrides="HorizontalAlignment" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="MouseLeftButtonDown">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Events"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers><Run Text="Events"/><LineBreak/><Run/></TextBlock>
-		<TextBlock HorizontalAlignment="Left" Margin="388,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch">
+		<TextBlock HorizontalAlignment="Left" Margin="388,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="MouseLeftButtonDown">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Copy_of_Screen_1"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers><Run Text="News"/><LineBreak/><Run/></TextBlock>
-		<TextBlock Margin="0,109,145,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Design your own T-shirt" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch">
+		<TextBlock Margin="0,109,145,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Design your own T-shirt" VerticalAlignment="Top" HorizontalAlignment="Right" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="MouseLeftButtonDown">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Make_your_own_t_shirt"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</TextBlock>
-		<TextBlock HorizontalAlignment="Right" Margin="0,109,41,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="On sale" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
-		<TextBlock HorizontalAlignment="Left" Margin="248,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Webshop" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
-		<TextBlock HorizontalAlignment="Left" Margin="39,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Width="57" Height="25" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"><Run Text="Home"/><LineBreak/><Run/></TextBlock>
+		<TextBlock HorizontalAlignment="Right" Margin="0,109,41,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="On sale" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Left" Margin="248,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Webshop" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Left" Margin="39,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Width="57" Height="25" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"><Run Text="Home"/><LineBreak/><Run/></TextBlock>
 		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="76" Margin="0,9,27,0" Stroke="Black" VerticalAlignment="Top" Width="250"/>
 		<Image Margin="864,20,41,580" Source="Images/Icons/14553490-shopping-cart-icon.jpg" Stretch="Fill" Width="50" Height="50"/>
-		<TextBlock HorizontalAlignment="Right" Margin="0,36,233,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
-		<TextBlock HorizontalAlignment="Right" Margin="0,16,232,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Foreground="#FF606060" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Right" Margin="0,36,233,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Right" Margin="0,16,232,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Foreground="#FF606060" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
 		<Image HorizontalAlignment="Right" Height="17" Margin="0,60,191,0" Source="Images/Icons/checkout.PNG" Stretch="Fill" VerticalAlignment="Top" Width="78"/>
 		<Image Margin="35,143,0,0" Source="Images/Miscellaneous/sale.jpg" Stretch="Fill" Height="100" VerticalAlignment="Top" HorizontalAlignment="Left" Width="150"/>
 		<Path Data="M0,109.09091 L955,109.09091" Margin="-27,0,532,263" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Fill="#FFAD2456" StrokeThickness="2" RenderTransformOrigin="0.5,0.5" Height="5" VerticalAlignment="Bottom" Width="450">
@@ -51,28 +51,28 @@
 		<TextBlock HorizontalAlignment="Left" Margin="291,308,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="$17.35" Width="50" Foreground="#FFED1010" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/SketchFlow Print.ttf#SketchFlow Print" OpacityMask="Black" Height="15" VerticalAlignment="Top" FontSize="13.333"/>
 		<Image HorizontalAlignment="Left" Margin="238,0,0,298" Source="add to cart.PNG" Stretch="Fill" Width="100" Height="25" VerticalAlignment="Bottom" d:LayoutOverrides="VerticalAlignment"/>
 		<Path Data="M458.60205,300.3331 L535.10199,300.3331" Fill="#FFAD2456" Margin="237.666,314.341,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="1"/>
-		<TextBlock Margin="238,289,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Star wars toaster" Width="100" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" HorizontalAlignment="Left" FontSize="13.333" Height="15" VerticalAlignment="Top"/>
+		<TextBlock Margin="238,289,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Star wars toaster" Width="100" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" HorizontalAlignment="Left" FontSize="13.333" Height="15" VerticalAlignment="Top"/>
 		<Rectangle Height="100" Margin="238,185,0,0" RadiusY="5" RadiusX="5" Stroke="Black" VerticalAlignment="Top" Width="100" HorizontalAlignment="Left" d:LayoutOverrides="Width"/>
 		<Image Margin="373,189,0,0" Source="Images/On Sale pics/darth vader toasting macheine.jpg" Stretch="Fill" Height="98" UseLayoutRounding="True" VerticalAlignment="Top" HorizontalAlignment="Left" Width="98"/>
 		<TextBlock HorizontalAlignment="Left" Margin="373,310,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="$23.75" Width="50" FontFamily="/Geekshirts.Screens;component/Fonts/SketchFlow Print.ttf#SketchFlow Print" Height="15" VerticalAlignment="Top" FontSize="13.333"/>
 		<TextBlock HorizontalAlignment="Left" Margin="426,310,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="$17.35" Width="50" Foreground="#FFED1010" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/SketchFlow Print.ttf#SketchFlow Print" OpacityMask="Black" Height="15" VerticalAlignment="Top" FontSize="13.333"/>
 		<Image HorizontalAlignment="Left" Margin="373,0,0,296" Source="add to cart.PNG" Stretch="Fill" Width="100" Height="25" VerticalAlignment="Bottom" d:LayoutOverrides="VerticalAlignment"/>
 		<Path Data="M458.60205,300.3331 L535.10199,300.3331" Fill="#FFAD2456" Margin="372.666,316.341,0,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Height="1"/>
-		<TextBlock Margin="373,291,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Star wars toaster" Width="100" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" HorizontalAlignment="Left" FontSize="13.333" Height="15" VerticalAlignment="Top"/>
+		<TextBlock Margin="373,291,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Star wars toaster" Width="100" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" HorizontalAlignment="Left" FontSize="13.333" Height="15" VerticalAlignment="Top"/>
 		<Rectangle Height="100" Margin="373,187,0,0" RadiusY="5" RadiusX="5" Stroke="Black" VerticalAlignment="Top" Width="100" HorizontalAlignment="Left" d:LayoutOverrides="Width"/>
 		<Image Margin="0,187,349,0" Source="Images/On Sale pics/darth vader toasting macheine.jpg" Stretch="Fill" Height="98" UseLayoutRounding="True" VerticalAlignment="Top" HorizontalAlignment="Right" Width="98"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,308,397,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="$23.75" Width="50" FontFamily="/Geekshirts.Screens;component/Fonts/SketchFlow Print.ttf#SketchFlow Print" Height="15" VerticalAlignment="Top" FontSize="13.333"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,308,344,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="$17.35" Width="50" Foreground="#FFED1010" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/SketchFlow Print.ttf#SketchFlow Print" OpacityMask="Black" Height="15" VerticalAlignment="Top" FontSize="13.333"/>
 		<Image HorizontalAlignment="Right" Margin="0,0,347,298" Source="add to cart.PNG" Stretch="Fill" Width="100" Height="25" VerticalAlignment="Bottom" d:LayoutOverrides="VerticalAlignment"/>
 		<Path Data="M458.60205,300.3331 L535.10199,300.3331" Fill="#FFAD2456" Margin="0,314.341,397.334,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" HorizontalAlignment="Right" Width="50" Height="1"/>
-		<TextBlock Margin="0,289,347,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Star wars toaster" Width="100" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" HorizontalAlignment="Right" FontSize="13.333" Height="15" VerticalAlignment="Top"/>
+		<TextBlock Margin="0,289,347,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Star wars toaster" Width="100" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" HorizontalAlignment="Right" FontSize="13.333" Height="15" VerticalAlignment="Top"/>
 		<Rectangle Height="100" Margin="0,185,347,0" RadiusY="5" RadiusX="5" Stroke="Black" VerticalAlignment="Top" Width="100" HorizontalAlignment="Right" d:LayoutOverrides="Width"/>
 		<Image Margin="0,187,218,0" Source="Images/On Sale pics/darth vader toasting macheine.jpg" Stretch="Fill" Height="98" UseLayoutRounding="True" VerticalAlignment="Top" HorizontalAlignment="Right" Width="98"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,308,266,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="$23.75" Width="50" FontFamily="/Geekshirts.Screens;component/Fonts/SketchFlow Print.ttf#SketchFlow Print" Height="15" VerticalAlignment="Top" FontSize="13.333"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,308,213,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="$17.35" Width="50" Foreground="#FFED1010" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/SketchFlow Print.ttf#SketchFlow Print" OpacityMask="Black" Height="15" VerticalAlignment="Top" FontSize="13.333"/>
 		<Image HorizontalAlignment="Right" Margin="0,0,216,298" Source="add to cart.PNG" Stretch="Fill" Width="100" Height="25" VerticalAlignment="Bottom" d:LayoutOverrides="VerticalAlignment"/>
 		<Path Data="M458.60205,300.3331 L535.10199,300.3331" Fill="#FFAD2456" Margin="0,314.341,266.834,0" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" HorizontalAlignment="Right" Width="50" Height="1"/>
-		<TextBlock Margin="0,289,216,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Star wars toaster" Width="100" FontFamily="/Geekshirts.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" HorizontalAlignment="Right" FontSize="13.333" Height="15" VerticalAlignment="Top"/>
+		<TextBlock Margin="0,289,216,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Star wars toaster" Width="100" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" HorizontalAlignment="Right" FontSize="13.333" Height="15" VerticalAlignment="Top"/>
 		<Rectangle Height="100" Margin="0,185,216,0" RadiusY="5" RadiusX="5" Stroke="Black" VerticalAlignment="Top" Width="100" HorizontalAlignment="Right" d:LayoutOverrides="Width"/>
 	</Grid>
 </UserControl>
