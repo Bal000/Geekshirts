@@ -323,35 +323,35 @@
 		<TextBlock HorizontalAlignment="Right" Margin="0,36,233,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,16,232,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Foreground="#FF606060" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
 		<Image HorizontalAlignment="Right" Height="17" Margin="0,60,191,0" Source="Images/Icons/checkout.PNG" Stretch="Fill" VerticalAlignment="Top" Width="78"/>
-		<Button Content="" Height="150" Margin="0,207,143,293" Style="{StaticResource ButtonStyle5}" d:LayoutOverrides="VerticalAlignment" HorizontalAlignment="Right" Width="150">
+		<Button Content="" Height="150" Margin="0,207,143,293" Style="{StaticResource ButtonStyle5}" d:LayoutOverrides="VerticalAlignment" HorizontalAlignment="Right" Width="150" Cursor="Hand">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Copy_of_Screen_1"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
-		<Button Content="Button" Height="150" Margin="370,207,435,293" Style="{StaticResource ButtonStyle4}" Width="150" d:LayoutOverrides="VerticalAlignment" Background="{x:Null}"/>
-		<Button Content="Button" Height="150" Margin="370,0,435,97" Style="{StaticResource ButtonStyle6}" Background="{x:Null}" VerticalAlignment="Bottom" d:LayoutOverrides="Height">
+		<Button Content="Button" Height="150" Margin="370,207,435,293" Style="{StaticResource ButtonStyle4}" Width="150" d:LayoutOverrides="VerticalAlignment" Background="{x:Null}" Cursor="Hand"/>
+		<Button Content="Button" Height="150" Margin="370,0,435,97" Style="{StaticResource ButtonStyle6}" Background="{x:Null}" VerticalAlignment="Bottom" d:LayoutOverrides="Height" Cursor="Hand">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Make_your_own_t_shirt"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
-		<Button Content="Button" HorizontalAlignment="Left" Height="150" Margin="89,0,0,97" Style="{StaticResource ButtonStyle8}" Width="150" VerticalAlignment="Bottom" d:LayoutOverrides="Height" Background="{x:Null}">
+		<Button Content="Button" HorizontalAlignment="Left" Height="150" Margin="89,0,0,97" Style="{StaticResource ButtonStyle8}" Width="150" VerticalAlignment="Bottom" d:LayoutOverrides="Height" Background="{x:Null}" Cursor="Hand">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Events"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
-		<Button Content="Button" HorizontalAlignment="Right" Height="150" Margin="0,0,143,97" Style="{StaticResource ButtonStyle9}" VerticalAlignment="Bottom" Width="150">
+		<Button Content="Button" HorizontalAlignment="Right" Height="150" Margin="0,0,143,97" Style="{StaticResource ButtonStyle9}" VerticalAlignment="Bottom" Width="150" Cursor="Hand">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
 					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.On_Sale"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>
-		<Button Content="Button" HorizontalAlignment="Left" Height="150" Margin="89,207,0,293" Style="{StaticResource ButtonStyle10}" Width="150"/>
+		<Button Content="Button" HorizontalAlignment="Left" Height="150" Margin="89,207,0,293" Style="{StaticResource ButtonStyle10}" Width="150" Cursor="Hand"/>
 	</Grid>
 </UserControl>

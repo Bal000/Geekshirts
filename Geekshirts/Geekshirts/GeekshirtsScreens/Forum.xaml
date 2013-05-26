@@ -78,12 +78,12 @@
 				</LinearGradientBrush>
 			</Rectangle.Fill>
 		</Rectangle>
-		<sdk:Label HorizontalAlignment="Left" Height="14" Margin="92,288,0,0" VerticalAlignment="Top" Width="48" Content="Home" Foreground="White"/>
-		<sdk:Label HorizontalAlignment="Left" Height="15" Margin="152,288,0,0" VerticalAlignment="Top" Width="42" Content="FAQ" Foreground="White"/>
-		<sdk:Label HorizontalAlignment="Left" Height="14" Margin="216,288,0,0" VerticalAlignment="Top" Width="89" Content="Members List" Foreground="White"/>
-		<sdk:Label HorizontalAlignment="Left" Height="14" Margin="338,289,0,0" VerticalAlignment="Top" Width="61" Content="Search" Foreground="White"/>
-		<sdk:Label Height="15" Margin="422,289,444,0" VerticalAlignment="Top" Content="Today's Posts" Foreground="White"/>
-		<sdk:Label HorizontalAlignment="Right" Height="15" Margin="0,289,300,0" VerticalAlignment="Top" Width="110" Content="Mark Forums Read" Foreground="White"/>
+		<sdk:Label HorizontalAlignment="Left" Height="14" Margin="92,288,0,0" VerticalAlignment="Top" Width="35" Content="Home" Foreground="White" Cursor="Hand"/>
+		<sdk:Label HorizontalAlignment="Left" Height="15" Margin="152,288,0,0" VerticalAlignment="Top" Width="24" Content="FAQ" Foreground="White" Cursor="Hand"/>
+		<sdk:Label HorizontalAlignment="Left" Height="14" Margin="216,288,0,0" VerticalAlignment="Top" Width="77" Content="Members List" Foreground="White" Cursor="Hand"/>
+		<sdk:Label HorizontalAlignment="Left" Height="14" Margin="338,289,0,0" VerticalAlignment="Top" Width="41" Content="Search" Foreground="White" Cursor="Hand"/>
+		<sdk:Label Height="15" Margin="422,289,454,0" VerticalAlignment="Top" Content="Today's Posts" Foreground="White" Cursor="Hand"/>
+		<sdk:Label HorizontalAlignment="Right" Height="15" Margin="0,289,300,0" VerticalAlignment="Top" Width="110" Content="Mark Forums Read" Foreground="White" Cursor="Hand"/>
 		<Image Margin="24,335,31,75" Source="/Images/Forum/forrum.jpg" Stretch="Fill" Width="900" Height="890"/>
 	</Grid>
 </UserControl>
