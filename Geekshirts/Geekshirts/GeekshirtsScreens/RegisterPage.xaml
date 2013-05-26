@@ -28,7 +28,7 @@
 		<TextBlock HorizontalAlignment="Right" Margin="0,109,41,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="On sale" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
 		<TextBlock HorizontalAlignment="Left" Margin="248,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Webshop" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
 		<TextBlock HorizontalAlignment="Left" Margin="39,109,0,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Width="57" Height="25" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"><Run Text="Home"/><LineBreak/><Run/></TextBlock>
-		<Rectangle Height="450" Margin="8,153,0,0" Stroke="Black" VerticalAlignment="Top" Width="600" RadiusX="21" RadiusY="20" HorizontalAlignment="Left">
+		<Rectangle Height="300" Margin="20,153,0,0" Stroke="Black" VerticalAlignment="Top" Width="400" RadiusX="21" RadiusY="20" HorizontalAlignment="Left">
 			<Rectangle.Fill>
 				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 					<GradientStop Color="Black" Offset="0"/>
@@ -40,22 +40,18 @@
 				<BlurEffect/>
 			</Rectangle.Effect>
 		</Rectangle>
-		<sdk:Label Height="25" Margin="52,193,0,0" VerticalAlignment="Top" Content="Firstname&#xa;" FontSize="21.333" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" Foreground="#FFEBE2E2" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="200"/>
-		<sdk:Label Margin="52,247,0,0" Content="Lastname&#xa;" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" FontSize="21.333" Foreground="#FFEBE2E2" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="200" Height="25" VerticalAlignment="Top"/>
-		<sdk:Label Margin="52,302,0,323" FontSize="21.333" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" Content="Telephone" Foreground="#FFEBE2E2" RenderTransformOrigin="0.5,0.5" Height="25" HorizontalAlignment="Left" Width="200"/>
-		<sdk:Label Margin="52,0,0,269" FontSize="21.333" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" Content="Adress" Foreground="#FFEBE2E2" RenderTransformOrigin="0.5,0.5" Height="25" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="200"/>
-		<sdk:Label Height="25" Margin="52,0,0,155" VerticalAlignment="Bottom" FontSize="21.333" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" Content="Password" Foreground="#FFEBE2E2" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="200"/>
-		<TextBox Margin="52,220,0,0" TextWrapping="Wrap" Height="25" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Top" HorizontalAlignment="Left" Width="200"/>
-		<TextBox Margin="52,274,0,0" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="200" Height="25" VerticalAlignment="Top"/>
-		<TextBox Margin="52,0,0,296" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" Height="25" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="200"/>
-		<TextBox Height="25" Margin="52,0,0,240" TextWrapping="Wrap" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="200"/>
-		<sdk:Label Height="25" Margin="52,0,0,97" VerticalAlignment="Bottom" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" FontSize="21.333" Content="Retype password" Foreground="#FFEBE2E2" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="200"/>
-		<PasswordBox Height="25" Margin="52,0,0,126" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="200"/>
-		<PasswordBox Height="25" Margin="52,0,0,68" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="200"/>
-		<sdk:Label Height="25" Margin="52,0,0,211" VerticalAlignment="Bottom" Content="Email" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" FontSize="21.333" Foreground="#FFEBE2E2" HorizontalAlignment="Left" Width="200"/>
-		<TextBox Height="25" Margin="52,0,0,182" TextWrapping="Wrap" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="200"/>
-		<TextBlock Height="40" Margin="387,186,418,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Register Now!" VerticalAlignment="Top" FontSize="29.333" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
-		<Rectangle Height="75" Margin="438,0,367,68" RadiusY="20" RadiusX="21" Stroke="Black" VerticalAlignment="Bottom" Width="150">
+		<sdk:Label Height="25" Margin="52,180,0,0" VerticalAlignment="Top" Content="Register now, it´s free and aways will be!&#xa;" FontSize="21.333" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" Foreground="#FFEBE2E2" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="330"/>
+		<TextBox x:Name="TxtFirstName" Margin="52,231,0,0" TextWrapping="Wrap" Height="25" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Top" HorizontalAlignment="Left" Width="95" Text="Firstname" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" FontSize="16" Foreground="#FF9B8787" GotFocus="TxtFirstName_GotFocus" LostFocus="TxtFirstName_LostFocus"/>
+		<TextBox x:Name="TxtLastName" Margin="157,231,0,0" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="95" Height="25" VerticalAlignment="Top" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" Text="Lastname" FontSize="16" Foreground="#FF9B8787" GotFocus="TxtLastName_GotFocus" LostFocus="TxtLastName_LostFocus"/>
+		<TextBox x:Name="TxtAdress" Margin="52,262,0,0" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" Text="Adress" FontSize="16" Foreground="#FF9B8787" GotFocus="TxtAdress_GotFocus" LostFocus="TxtAdress_LostFocus"/>
+		<TextBox x:Name="TxtTelephone" Margin="52,293,0,0" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="200" AcceptsReturn="True" Text="Telephone" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" FontSize="16" Height="25" VerticalAlignment="Top" Foreground="#FF9B8787" GotFocus="TxtTelephone_GotFocus" LostFocus="TxtTelephone_LostFocus"/>
+		<TextBox x:Name="TxtEmail" Margin="52,324,0,301" TextWrapping="Wrap" HorizontalAlignment="Left" Width="200" Text="Email" FontSize="16" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" Foreground="#FF9B8787" GotFocus="TxtEmail_GotFocus" LostFocus="TxtEmail_LostFocus"/>
+		<Rectangle Height="35" Margin="298,0,0,231" RadiusY="20" RadiusX="21" Stroke="Black" VerticalAlignment="Bottom" Width="100" HorizontalAlignment="Left">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseLeftButtonDown">
+					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Copy_of_Screen_1_2"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
 			<Rectangle.Fill>
 				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 					<GradientStop Color="Black" Offset="0"/>
@@ -64,11 +60,19 @@
 				</LinearGradientBrush>
 			</Rectangle.Fill>
 		</Rectangle>
-		<TextBlock Margin="459,0,396,77" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Register" FontSize="32" Foreground="#FF151A18" Height="45" VerticalAlignment="Bottom" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" Width="100"/>
+		<TextBlock Margin="317,0,0,238" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Join Now" FontSize="18.667" Foreground="#FF151A18" Height="20" VerticalAlignment="Bottom" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" Width="65" HorizontalAlignment="Left">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseLeftButtonDown">
+					<pi:NavigateToScreenAction TargetScreen="GeekshirtsScreens.Copy_of_Screen_1_2"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</TextBlock>
 		<Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="76" Margin="0,9,27,0" Stroke="Black" VerticalAlignment="Top" Width="250"/>
 		<Image Margin="864,20,41,580" Source="Images/Icons/14553490-shopping-cart-icon.jpg" Stretch="Fill" Width="50" Height="50"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,36,233,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Total:" VerticalAlignment="Top" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
 		<TextBlock HorizontalAlignment="Right" Margin="0,16,232,0" Style="{StaticResource BasicTextBlock-Sketch}" TextWrapping="Wrap" Text="Items:" VerticalAlignment="Top" Foreground="#FF606060" FontWeight="Bold" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch"/>
 		<Image HorizontalAlignment="Right" Height="17" Margin="0,60,191,0" Source="Images/Icons/checkout.PNG" Stretch="Fill" VerticalAlignment="Top" Width="78"/>
+		<TextBox x:Name="TxtPassword1" HorizontalAlignment="Left" Height="25" Margin="52,0,0,270" TextWrapping="Wrap" Text="Password" VerticalAlignment="Bottom" Width="200" FontSize="16" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" Foreground="#FF9B8787" GotFocus="TxtPassword1_GotFocus" LostFocus="TxtPassword1_LostFocus"/>
+		<TextBox x:Name="TxtPassword2" HorizontalAlignment="Left" Height="25" Margin="52,0,0,238" TextWrapping="Wrap" Text="Retype Password" VerticalAlignment="Bottom" Width="200" FontSize="16" FontFamily="/Geekshirts.Screens;component/Fonts/Fonts.zip#Buxton Sketch" Foreground="#FF9B8787" GotFocus="TxtPassword2_GotFocus" LostFocus="TxtPassword2_LostFocus"/>
 	</Grid>
 </UserControl>

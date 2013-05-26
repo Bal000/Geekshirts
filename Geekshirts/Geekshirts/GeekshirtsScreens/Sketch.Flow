@@ -135,6 +135,18 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>GeekshirtsScreens.LoginPage</ClassName>
+      <DisplayName>LoginPage</DisplayName>
+      <FileName>LoginPage.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-105</X>
+        <Y>-1228</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -298,6 +310,27 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.RegisterPage</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.LoginPage</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.LoginPage</Source>
+      <Target>GeekshirtsScreens.RegisterPage</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -343,10 +376,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>1.25</Zoom>
+    <Zoom>0.33333333333333331</Zoom>
     <Center>
-      <X>-318.6075662591345</X>
-      <Y>-1204.76344979935</Y>
+      <X>-30.163863636363686</X>
+      <Y>-1258.5399509803938</Y>
     </Center>
   </ViewState>
 </Data>
