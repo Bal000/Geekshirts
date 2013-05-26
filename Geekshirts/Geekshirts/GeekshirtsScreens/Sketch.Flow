@@ -10,8 +10,8 @@
       <FileName>Screen_1.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-480</X>
-        <Y>-1336</Y>
+        <X>-575</X>
+        <Y>-1362</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -82,8 +82,8 @@
       <FileName>RegisterPage.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-480</X>
-        <Y>-1302</Y>
+        <X>-482</X>
+        <Y>-1306</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -118,20 +118,8 @@
       <FileName>Copy_of_Screen_1_2.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-478</X>
-        <Y>-1178</Y>
-      </Position>
-      <VisualTag>0</VisualTag>
-    </Screen>
-    <Screen>
-      <Type>Navigation</Type>
-      <ClassName>GeekshirtsScreens.Copy_of_Screen_1_3</ClassName>
-      <DisplayName>Forum</DisplayName>
-      <FileName>Copy_of_Screen_1_3.xaml</FileName>
-      <Annotations />
-      <Position>
-        <X>-371</X>
-        <Y>-1134</Y>
+        <X>-555</X>
+        <Y>-1181</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -144,6 +132,18 @@
       <Position>
         <X>-105</X>
         <Y>-1228</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>GeekshirtsScreens.Copy_of_Screen_1_3</ClassName>
+      <DisplayName>Forum</DisplayName>
+      <FileName>Forum.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-485</X>
+        <Y>-1119</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -283,6 +283,27 @@
       <VisualTag>0</VisualTag>
     </Connection>
     <Connection>
+      <Source>GeekshirtsScreens.RegisterPage</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.LoginPage</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.LoginPage</Source>
+      <Target>GeekshirtsScreens.RegisterPage</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
       <Source>GeekshirtsScreens.Copy_of_Screen_1_3</Source>
       <Target>GeekshirtsScreens.Events</Target>
       <Type>Navigation</Type>
@@ -306,27 +327,6 @@
     <Connection>
       <Source>GeekshirtsScreens.Copy_of_Screen_1_2</Source>
       <Target>GeekshirtsScreens.Copy_of_Screen_1_3</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>GeekshirtsScreens.RegisterPage</Source>
-      <Target>GeekshirtsScreens.Copy_of_Screen_1_2</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>GeekshirtsScreens.LoginPage</Source>
-      <Target>GeekshirtsScreens.Copy_of_Screen_1_2</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>GeekshirtsScreens.LoginPage</Source>
-      <Target>GeekshirtsScreens.RegisterPage</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
@@ -376,10 +376,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.33333333333333331</Zoom>
+    <Zoom>1</Zoom>
     <Center>
-      <X>-30.163863636363686</X>
-      <Y>-1258.5399509803938</Y>
+      <X>-466.0382332986519</X>
+      <Y>-1212.9771634615349</Y>
     </Center>
   </ViewState>
 </Data>
