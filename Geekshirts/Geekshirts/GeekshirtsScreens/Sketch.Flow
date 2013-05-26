@@ -118,8 +118,8 @@
       <FileName>Copy_of_Screen_1_2.xaml</FileName>
       <Annotations />
       <Position>
-        <X>-478</X>
-        <Y>-1178</Y>
+        <X>-476</X>
+        <Y>-1169</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -144,6 +144,54 @@
       <Position>
         <X>-105</X>
         <Y>-1228</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>GeekshirtsScreens.Productview</ClassName>
+      <DisplayName>Productview</DisplayName>
+      <FileName>Productview.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-477</X>
+        <Y>-1109</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>GeekshirtsScreens.About_1</ClassName>
+      <DisplayName>About</DisplayName>
+      <FileName>About_1.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-480</X>
+        <Y>-1196</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>GeekshirtsScreens.Cart</ClassName>
+      <DisplayName>Cart</DisplayName>
+      <FileName>Cart.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-480</X>
+        <Y>-1141</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>GeekshirtsScreens.Webshop_start</ClassName>
+      <DisplayName>Webshop start</DisplayName>
+      <FileName>Webshop_start.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>-480</X>
+        <Y>-1081</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -331,6 +379,97 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Productview</Source>
+      <Target>GeekshirtsScreens.Events</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Productview</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Productview</Source>
+      <Target>GeekshirtsScreens.Make_your_own_t_shirt</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Productview</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.About_1</Source>
+      <Target>GeekshirtsScreens.Events</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.About_1</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.About_1</Source>
+      <Target>GeekshirtsScreens.Make_your_own_t_shirt</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Cart</Source>
+      <Target>GeekshirtsScreens.Events</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Cart</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Cart</Source>
+      <Target>GeekshirtsScreens.Make_your_own_t_shirt</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Webshop_start</Source>
+      <Target>GeekshirtsScreens.Events</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Webshop_start</Source>
+      <Target>GeekshirtsScreens.Copy_of_Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>GeekshirtsScreens.Webshop_start</Source>
+      <Target>GeekshirtsScreens.Make_your_own_t_shirt</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -376,10 +515,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.33333333333333331</Zoom>
+    <Zoom>0.66666666666666663</Zoom>
     <Center>
-      <X>-30.163863636363686</X>
-      <Y>-1258.5399509803938</Y>
+      <X>-357.375946969697</X>
+      <Y>-1177.4453921568631</Y>
     </Center>
   </ViewState>
 </Data>
