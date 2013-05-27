@@ -68,6 +68,12 @@
     <Reference Include="Microsoft.Expression.Prototyping.SketchControls" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About_1.xaml.cs">
+      <DependentUpon>About_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.xaml.cs">
+      <DependentUpon>Cart.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Copy_of_Screen_1.xaml.cs">
       <DependentUpon>Copy_of_Screen_1.xaml</DependentUpon>
     </Compile>
@@ -101,6 +107,9 @@
     <Compile Include="On_Sale.xaml.cs">
       <DependentUpon>On_Sale.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Productview.xaml.cs">
+      <DependentUpon>Productview.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RegisterPage.xaml.cs">
       <DependentUpon>RegisterPage.xaml</DependentUpon>
     </Compile>
@@ -110,6 +119,17 @@
     <Compile Include="Size_Chart.xaml.cs">
       <DependentUpon>Size_Chart.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Webshop_start.xaml.cs">
+      <DependentUpon>Webshop_start.xaml</DependentUpon>
+    </Compile>
+    <Page Include="About_1.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Cart.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Copy_of_Screen_1.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
@@ -154,6 +174,10 @@
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Productview.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="RegisterPage.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
@@ -174,11 +198,21 @@
     <Compile Include="..\Properties\Version.cs">
       <Link>Properties\Version.cs</Link>
     </Compile>
+    <Page Include="Webshop_start.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Resource Include="091411_concealed_usb3a.jpg" />
+    <Resource Include="091411_concealed_usb3a1.jpg" />
+    <Resource Include="59FIFTY_Star_Wars_Cap.jpg" />
     <Resource Include="add to cart.PNG" />
     <BlendEmbeddedFont Include="Fonts\BuxtonSketch.ttf">
       <All>True</All>
       <AutoFill>True</AutoFill>
     </BlendEmbeddedFont>
+    <Resource Include="BadAssMotherFuckerWallet.JPG" />
+    <Resource Include="BadAssMotherFuckerWallet1.JPG" />
+    <Resource Include="bart.jpg" />
     <Resource Include="Fonts\SketchFlow Print.ttf" />
     <Resource Include="Fonts\SegoeMarker.ttf" />
     <Resource Include="Images\Colors\blå fyrkant.PNG" />
@@ -227,10 +261,38 @@
     <Resource Include="Images\Shirts\t-shirt purple.jpg" />
     <Resource Include="Images\Shirts\t-shirt white.jpg" />
     <Resource Include="Images\Shirts\t-shirt yellow.jpg" />
+    <Resource Include="L2P_Domo-Sm-Nerd.jpg" />
+    <Resource Include="L2P_Domo-Sm-Nerd1.jpg" />
+    <Resource Include="Lord Of The Rings_The Two Towers Poster.jpeg" />
+    <Resource Include="luigi-3-T-Shirts.png" />
+    <Resource Include="luigi-3-T-Shirts1.png" />
+    <Resource Include="luigi-3-T-Shirts2.png" />
+    <Resource Include="mug.jpg" />
+    <Resource Include="mug1.jpg" />
+    <Resource Include="ring.jpg" />
+    <Resource Include="ring1.jpg" />
+    <Resource Include="Search.png" />
+    <Resource Include="Search1.png" />
     <Resource Include="Sketch.Flow" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\Forum\forrum.jpg">
+    <Content Include="1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="21.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="31.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\Front\One_ejected_three_injured_in_accident0_1368559694.jpg">
